@@ -14,7 +14,7 @@ import LinearAlgebra
 import Libdl
 using CEnum
 
-const warnkeywords = (:d_discontinuities,
+const warnkeywords = (
     :isoutofdomain,
     :unstable_check,
     :calck,
